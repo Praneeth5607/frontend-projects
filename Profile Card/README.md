@@ -6,7 +6,9 @@ This project showcases a personal introduction, skills, social links, and a call
 ## Live Demo
 
 View the project here:
-[https://Praneeth5607.github.io/profile-card/](https://Praneeth5607.github.io/profile-card/)
+[https://Praneeth5607.github.io/frontend-projects/Profile%20Card/
+](https://Praneeth5607.github.io/frontend-projects/Profile%20Card/
+)
 
 
 ## Features
