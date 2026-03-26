@@ -1,14 +1,14 @@
-# 📊 Attendance Calculator
+# Attendance Calculator
 
 A simple web application to calculate attendance percentage and determine whether you can skip classes or need to attend more to maintain the 75% rule.
 
 ---
 ## 🌐 Live Demo
 
-View the project here:
+View the project here: https://praneeth5607.github.io/frontend-projects/Attendance%20Tracker/
 
 ---
-## 🚀 Features
+## Features
 
 * Calculate attendance percentage instantly
 * Shows how many classes you can skip (if ≥ 75%)
@@ -19,7 +19,7 @@ View the project here:
 
 ---
 
-## 🧠 Logic Used
+##  Logic Used
 
 * **Attendance %** = (Attended / Total) × 100
 * If percentage ≥ 75 → calculate **skippable classes**
@@ -27,7 +27,7 @@ View the project here:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * HTML
 * CSS
@@ -37,7 +37,7 @@ View the project here:
 
 
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 attendance-calculator/
@@ -49,14 +49,14 @@ attendance-calculator/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Download or clone the repository
 2. Open `index.html` in your browser
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 * Add progress bar visualization
 * Store previous inputs using localStorage
