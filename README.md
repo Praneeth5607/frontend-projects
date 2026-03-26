@@ -10,7 +10,7 @@ Each project focuses on core web development concepts such as layout design, DOM
 A modern personal profile card showcasing a user’s name, skills, social links, and call-to-action button.
 
 **Live Demo:**
-[https://Praneeth5607.github.io/frontend-projects/Profile%20Card/](https://Praneeth5607.github.io/frontend-projects/Profile%20Card/)
+https://Praneeth5607.github.io/frontend-projects/Profile%20Card/
 
 ---
 
@@ -19,7 +19,7 @@ A modern personal profile card showcasing a user’s name, skills, social links,
 An interactive game where the user plays against the computer with instant results and score tracking.
 
 **Live Demo:**
-[https://Praneeth5607.github.io/frontend-projects/Rock-Paper-Scissors/](https://Praneeth5607.github.io/frontend-projects/Rock-Paper-Scissors/)
+https://Praneeth5607.github.io/frontend-projects/Rock-Paper-Scissors/
 
 ---
 
@@ -28,7 +28,16 @@ An interactive game where the user plays against the computer with instant resul
 A simple task manager that allows users to add and delete tasks with real-time updates.
 
 **Live Demo:**
-[https://Praneeth5607.github.io/frontend-projects/todo-list/](https://Praneeth5607.github.io/frontend-projects/todo-list/)
+https://Praneeth5607.github.io/frontend-projects/todo-list/
+
+---
+
+### 4. Attendance Calculator
+
+A web app to calculate attendance percentage and determine how many classes can be skipped or need to be attended to maintain the 75% rule.
+
+**Live Demo:**
+https://Praneeth5607.github.io/frontend-projects/Attendance%20Tracker/
 
 ---
 
