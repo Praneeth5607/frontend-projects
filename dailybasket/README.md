@@ -7,7 +7,7 @@ A simple and interactive grocery shopping frontend website built using HTML, CSS
 ## Live Demo
 
 View the project here:  
-https://Praneeth5607.github.io/dailybasket/
+https://praneeth5607.github.io/frontend-projects/dailybasket/
 
 ---
 
@@ -39,4 +39,4 @@ https://Praneeth5607.github.io/dailybasket/
 1. Download or clone the repository.
 
 ```bash
-git clone https://github.com/Praneeth5607/dailybasket.git
+git clone https://praneeth5607.github.io/frontend-projects/dailybasket/.git
