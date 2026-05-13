@@ -1,0 +1,404 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fefae0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.content{
+    width: 70%;
+    height: 100%;
+    padding: 15px;
+    background-color: rgb(197, 222, 214);
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.cart{
+    width: 30%;
+    height: 100%;
+    /* background-color: cadetblue; */
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+.card{
+    width: 250px;
+    height: 350px;
+    border-radius: 14px;
+    box-shadow: 4px 0px 4px rgb(169, 150, 150);
+    overflow: hidden;
+    background-color:  rgb(213, 213, 161);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.for_img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.details{
+    padding: 15px;
+    line-height: 8px;
+    /* text-align: center; */
+}
+
+.details p{
+    color: #000;
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 30px;
+    background-color: yellow;
+    font-size:small;
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #0f4c5c;
+    color: whitesmoke;
+    position: sticky;
+    top: 0;
+
+    z-index: 10000;
+}
+
+.logo{
+    margin:15px 50px;
+    width: 100px;
+    text-align: center;
+}
+
+.options{
+    flex: 1;
+}
+
+.options ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size:medium;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    margin-right: 200px;
+    position: relative;
+}
+.account button{
+    background: none;
+    border: none;
+}
+.account button span {
+    font-weight: bolder;
+    color: whitesmoke;
+    font-size: large;
+}
+
+.profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    display: inline;
+    padding-right: 10px;
+}
+
+.cart_items{
+    background-color: #99c5b2;
+    flex: 1;
+    margin: 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    max-height: 600px;
+    overflow-y: scroll;
+    /* position: sticky;
+    top: 65px; */
+}
+
+.cart_items::-webkit-scrollbar{
+    width: 8px;
+}
+
+.cart_items::-webkit-scrollbar-track{
+    background: #d9d9d9;
+}
+
+.cart_items::-webkit-scrollbar-thumb{
+    background: #934d78;
+    border-radius: 10px;
+}
+
+
+.cart_card h3 {
+    display: inline;
+}
+.cart_card{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 0px;
+    margin-top: 5px;
+    border-radius: 12px;
+    align-items: center;
+    box-shadow: 0px 0px 8px rgb(9, 8, 8);
+    background-color:#f9dec9 ;
+    
+
+}
+.name{
+    width: 100px;
+    padding-left: 35px;
+}
+
+.cart_price{
+    width: 110px;
+}
+
+.minus{
+    width: 30px;
+}
+
+.cross{
+    /* width: 30px; */
+    margin-right: 45px;
+    padding: 13px;
+    border: 2px solid transparent;
+    font-weight: 500;
+    border-radius: 50%;
+}
+
+.cross:hover{
+    border-color:  #000;
+    transform: scale(1.1);
+}
+
+.total{
+    background-color: aliceblue;
+    padding: 10px 0px;
+    margin-top: 5px;
+    border-radius: 12px;
+    width: 100%;
+    text-align: center;
+}
+
+.cart_section{
+    width: 30%;
+    position: sticky;
+    top: 65px;
+    height: fit-content;
+}
+
+.item_price{
+    color: #000;
+    font: 1em ;
+}
+.checkout_btn{
+    width: 97%;
+    height: 45px;
+    margin: 5px;
+    border: none;
+    border-radius: 12px;
+    background-color: #0f4c5c;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.checkout_btn:hover{
+    background-color: rgb(244, 244, 55);
+    color: #000;
+    transform: scale(1.06);
+    transition: 0.5s;
+}
+.cart_section{
+    width: 30%;
+    position:sticky;
+    top: 65px;
+    height: fit-content;
+    align-self: flex-start;
+    margin: 5px;
+    
+}
+
+.empty_cart{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0px;
+    margin-top: 15px;
+    background-color: #99c5b2;
+    border-radius: 15px;
+}
+
+.empty_cart img{
+    width: 250px;
+    height: 250px;
+     mix-blend-mode: multiply;
+      object-fit: cover;
+}
+
+.cart_items{
+    display: none;
+}
+
+.checkout_btn{
+    display: none;
+}
+
+.footer{
+    background-color: #0f4c5c;
+
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 25px;
+}
+
+.footer_box{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.footer_box a,p{
+    text-decoration: none;
+    color: rgb(203, 196, 196);
+}
+.footer_box a:hover{
+    text-decoration: underline black;
+    color: #000;
+}
+
+.footer_box h3{
+    font-weight: 900;
+    color: rgb(250, 250, 250);
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 150px;
+}
+.socials{
+    display: flex;
+    gap: 25px;
+}
+
+.socials a{
+    color: rgb(180,180,180);
+    font-size: 28px;
+
+    transition: 0.3s;
+}
+
+.socials a:hover{
+    color: white;
+    transform: scale(1.15);
+}
+
+hr{
+    color: white;
+    height: 0px;
+    border-radius: 500%;
+}
+
+.copyright{
+    color: rgb(203, 196, 196);
+}
+
+.accounti{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 9999;
+    display: none;
+    padding-right: 30px;
+    width: 150px;
+    color: #000;
+    margin-top: 15px;
+    font-weight: 500;
+    box-shadow: 0px 2px 5px gray;
+}
+
+.account:hover .accounti{
+    display: block;
+}
+#logout{
+    color: red;
+}
+
+.accounti li {
+    list-style: none;
+    padding: 15px;
+    
+    border-bottom: 2px  solid gray;
+    border-radius: 3px;
+}
+
+.accounti li:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+#logout:hover{
+    color: red;
+    transform: scale(1.01);
+}
+
+.nav ul li a:hover{
+     color: yellow;
+    border-bottom: 2px solid yellow;
+    padding-bottom: 5px;
+}
