@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div class="outer">
+        <div class="inner">
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+        </div>
+    </div>
+
+    <div class="plays">
+        <h2>Single player or Double player</h2>
+        <div class="container">
+            <div class="one">
+            <button class="single"><img src="images/image copy.png" alt=""></button>
+            <p><b>Single player</b></p>
+        </div>
+        <div class="two">
+            <button class="double"><img src="images/image.png" alt=""></button>
+            <p><b>Double player</b></p>
+        </div>
+        </div>
+    </div>
+
+
+    <div id = "popup" class="popup">
+        <div class="message">
+            <div class="cross"><button id = "cross" onclick="close_popup()">X</button></div>
+            <h2 id="popup_text"> </h2>
+            <button id="ok_btn" onclick="close_popup()"> OK</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
