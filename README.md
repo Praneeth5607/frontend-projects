@@ -1,13 +1,14 @@
 # Frontend Projects
 
-A collection of beginner-friendly frontend projects built using **HTML, CSS, and JavaScript**.
-Each project focuses on core web development concepts such as layout design, DOM manipulation, interactivity, and responsive styling.
+A collection of beginner-friendly frontend projects built using HTML, CSS, and JavaScript. Each project focuses on core web development concepts such as layout design, DOM manipulation, interactivity, and responsive styling.
+
+---
 
 ## Projects Included
 
 ### 1. Profile Card
 
-A modern personal profile card showcasing a user’s name, skills, social links, and call-to-action button.
+A modern personal profile card showcasing a user's name, skills, social links, and call-to-action button.
 
 **Live Demo:**
 https://Praneeth5607.github.io/frontend-projects/Profile%20Card/
@@ -41,11 +42,30 @@ https://Praneeth5607.github.io/frontend-projects/Attendance%20Tracker/
 
 ---
 
+### 5. Tic Tac Toe
+
+A simple web-based Tic Tac Toe game built using HTML, CSS, and JavaScript. Play against a friend in Two Player Mode or challenge the computer in Single Player Mode.
+
+**Features:**
+
+* Single Player Mode (vs Computer)
+* Two Player Mode
+* Winner Detection
+* Draw Detection
+* Responsive Design
+
+**Live Demo:**
+https://praneeth5607.github.io/frontend-projects/Tic-Tac-Toe/
+
+---
+
 ## Tech Stack
 
 * HTML5
 * CSS3
 * JavaScript
+
+---
 
 ## Purpose
 
@@ -56,11 +76,15 @@ These projects were created to practice:
 * JavaScript logic and DOM manipulation
 * Building small, real-world UI components
 
+---
+
 ## How to Use
 
 1. Open any project folder.
 2. Launch the `index.html` file in a browser.
 3. Interact with the project.
+
+---
 
 ## Author
 
