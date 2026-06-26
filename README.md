@@ -58,14 +58,24 @@ A simple web-based Tic Tac Toe game built using HTML, CSS, and JavaScript. Play 
 https://praneeth5607.github.io/frontend-projects/Tic-Tac-Toe/
 
 ---
+### 6. Live Weather Dashboard
 
-## Tech Stack
+A responsive weather application that provides real-time weather information for any city using a weather API. It displays the current weather, 5-day forecast, hourly forecast, sunrise and sunset timings, air quality information, and other weather details.
 
-* HTML5
-* CSS3
-* JavaScript
+**Features:**
 
----
+* Search weather by city name
+* Current temperature and weather condition
+* 5-Day Weather Forecast
+* Hourly Weather Forecast
+* Sunrise & Sunset Timings
+* Air Quality Index (AQI)
+* Humidity, Pressure, Feels Like & Visibility
+* Responsive Design
+* Error handling for invalid city names
+
+**Live Demo:**
+https://Praneeth5607.github.io/frontend-projects/weather-forecast-dashboard/
 
 ## Purpose
 
