@@ -2,6 +2,11 @@
 
 A modern and responsive weather dashboard built using HTML, CSS, and JavaScript. The application provides real-time weather information, air quality data, sunrise/sunset timings, hourly forecasts, and a 5-day weather forecast using the OpenWeather APIs.
 
+## 🌐 Live Demo
+
+Try the project here:
+
+**https://Praneeth5607.github.io/frontend-projects/weather-forecast-dashboard/**
 
 ## ✨ Features
 
