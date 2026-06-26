@@ -77,6 +77,8 @@ A responsive weather application that provides real-time weather information for
 **Live Demo:**
 https://Praneeth5607.github.io/frontend-projects/weather-forecast-dashboard/
 
+---
+
 ## Purpose
 
 These projects were created to practice:
