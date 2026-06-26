@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <title>Live Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navBar">
+        <div class="searchbar">
+            <input type="text" class="search" placeholder="Search City....">
+            <button class="searchicon" onclick="getWeather()"> 
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="leftbox">
+            <div class="b1 temp">
+                <div class="details">
+                    <h5 class="status cityname">Your City</h5>
+                    <h6 class="status temperature">- &deg;C</h6>
+                    <h6 class="status desc">Desciption</h6>
+                </div>
+                <hr class="line">
+                <div class="pot">
+                    <div class="datetime date">
+                    <i class="fa-solid fa-calendar"></i>
+                    <h6 id="date">--</h6>
+                </div>
+                <div class="datetime time">
+                    <i class="fa-solid fa-clock"></i>
+                    <h6 id="time">--</h6>
+                </div>
+                </div>
+            </div>
+            <div class="b1 nextfivedays">
+                <h6 class="nextdaystitle">Coming 5 Days</h6>
+                <div class="nextdays">
+                    <div class="daydetails">
+                    <div class="daytemp">
+                        <img src="/images/cloud.png" alt="">  <!-- temperature image referance-->
+                        <h6 class="daytemperature">--&deg;C</h6>
+                    </div>
+                    <div class="day">--</div>
+                    <div class="daydate">--</div>
+                </div>
+                
+                <div class="daydetails">
+                    <div class="daytemp">
+                        <img src="/images/cloud.png" alt="">  <!-- temperature image referance-->
+                        <h6 class="daytemperature">-- &deg;C</h6>
+                    </div>
+                    <div class="day">--</div>
+                    <div class="daydate">--</div>
+                </div>
+                <div class="daydetails">
+                    <div class="daytemp">
+                        <img src="/images/cloud.png" alt="">  <!-- temperature image referance-->
+                        <h6 class="daytemperature">-- &deg;C</h6>
+                    </div>
+                    <div class="day">--</div>
+                    <div class="daydate">--</div>
+                </div>
+                <div class="daydetails">
+                    <div class="daytemp">
+                        <img src="/images/cloud.png" alt="">  <!-- temperature image referance-->
+                        <h6 class="daytemperature">--&deg;C</h6>
+                    </div>
+                    <div class="day">--</div>
+                    <div class="daydate">--</div>
+                </div>
+                <div class="daydetails">
+                    <div class="daytemp">
+                        <img src="/images/cloud.png" alt="">  <!-- temperature image referance-->
+                        <h6 class="daytemperature">--&deg;C</h6>
+                    </div>
+                    <div class="day">--</div>
+                    <div class="daydate">--</div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="rightbox">
+            <div class="rb topmost">
+                <div class="para">
+                    <img src="images/flood.png" alt="humidity">
+                    <div class="underpara">
+                        <h6 class="paraname">Humidity</h6>
+                        <h6 class="paravalue humidity_value">--</h6>
+                    </div>
+                </div>
+                <div class="para">
+                    <img src="images/wind (1).png" alt="pressure">
+                    <div class="underpara">
+                        <h6 class="paraname">Pressure</h6>
+                        <h6 class="paravalue pressure_value">--</h6>
+                    </div>
+                </div>
+                <div class="para">
+                    <img src="images/hot.png" alt="feels like">
+                    <div class="underpara">
+                        <h6 class="paraname">Feels Like</h6>
+                        <h6 class="paravalue fl_value">--</h6>
+                    </div>
+                </div>
+                <div class="para">
+                    <img src="images/eye.png" alt="visibility">
+                    <div class="underpara">
+                        <h6 class="paraname">Visibility</h6>
+                        <h6 class="paravalue visible_value">--</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="rb middle">
+                <div class="m1 ml">
+                    <div class="aqititle"><h6>Air Quality Index(AQI)</h6></div>
+                    <div class="aqidetails">
+                        <div class="aqidata aqi_image">
+                            <img src="images/wind.png" alt="Aqi">
+                        </div>
+                        <div class="aqidata">
+                            <div class="aqi_name"><h6>CO</h6></div>
+                            <div class="aqi_value"><h6 class="co_value">--</h6></div>
+                        </div>
+                        <div class="aqidata">
+                            <div class="aqi_name"><h6>SO2</h6></div>
+                            <div class="aqi_value"><h6 class="so2_value">--</h6></div>
+                        </div>
+                        <div class="aqidata">
+                            <div class="aqi_name"><h6>O3</h6></div>
+                            <div class="aqi_value"><h6 class="o3_value">--</h6></div>
+                        </div>
+                        <div class="aqidata">
+                          <div class="aqi_name"><h6>NO2</h6></div>
+                            <div class="aqi_value"><h6 class="no2_value">--</h6></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m1 mr">
+                    <div class="timming_title">
+                        <h6>Sunrise & Sunset</h6>
+                    </div>
+                    <div class="timming_details">
+                        <div class="sun_logo">
+                            <img src="images/sun (1).png" alt="">
+                        </div>
+                        <div class="timming_info">
+                            <div class="info_tilte">Sunrise</div>
+                            <div class="info_time rise_time">--</div>
+                            <div class="am_pm rise_period"></div>
+                        </div>
+                    
+                        <div class="sun_logo">
+                            <img src="images/moon.png" alt="">
+                        </div>
+                        <div class="timming_info">
+                            <div class="info_tilte ">Sunrise</div>
+                            <div class="info_time set_time">--</div>
+                            <div class="am_pm set_period"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rb last">
+                <div class="today_title">
+                    <h6>Today</h6>
+                </div>
+                <div class="compoend_bar">
+                    
+                <div class="last_compoends">
+                    <div class="today_time">--</div>
+                    <div class="today_image">
+                        <img src="images/cloudy.png" alt="">
+                    </div>
+                    <div class="today_temp">--</div>
+                </div>
+                <div class="last_compoends">
+                    <div class="today_time">--</div>
+                    <div class="today_image">
+                        <img src="images/cloudy.png" alt="">
+                    </div>
+                    <div class="today_temp">--</div>
+                </div>
+                <div class="last_compoends">
+                    <div class="today_time">--</div>
+                    <div class="today_image">
+                        <img src="images/cloudy.png" alt="">
+                    </div>
+                    <div class="today_temp">--</div>
+                </div>
+                <div class="last_compoends">
+                    <div class="today_time">--</div>
+                    <div class="today_image">
+                        <img src="images/cloudy.png" alt="">
+                    </div>
+                    <div class="today_temp">--</div>
+                </div>
+                <div class="last_compoends">
+                    <div class="today_time">--</div>
+                    <div class="today_image">
+                        <img src="images/cloudy.png" alt="">
+                    </div>
+                    <div class="today_temp">--</div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="error_message">
+        <h6>City Not Found</h6>
+        <button class="error_ok" onclick="accept_cnf()">OK</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

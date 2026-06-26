@@ -1,0 +1,362 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Comfortaa", sans-serif;
+}
+
+body{
+    background-image:url("images/2148933766.jpg");
+    background-size:cover;
+    background-position:bottom;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    min-height:100vh;
+}
+
+.navBar{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar{
+    width:40%;
+    display:flex;
+    align-items:center;
+    background:white;
+    border-radius:30px;
+    padding:5px;
+    box-shadow: 3px 3px 5px rgb(45, 45, 45);
+    backdrop-filter:blur(10px);
+    margin: 5px;
+}
+
+.search {
+    flex:1;
+    border:none;
+    outline:none;
+    padding:12px 15px;
+    border-radius:30px;
+    font-weight:bolder;
+    font-size: 1rem;
+}
+
+.searchicon{
+     border:none;
+    background:#000;
+    color: aliceblue;
+    border-radius: 50%;
+    cursor:pointer;
+    padding:10px;
+    font-size:20px;
+}
+.container{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+.leftbox{
+    width:30%;
+    /* background-color:springgreen; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.b1{
+    background-color: rgba(255,255,255,0.6);
+    backdrop-filter: blur(15px);
+    width: 90%;
+    height: 45%;
+    border-radius: 15px;
+}
+
+h5,h6{
+    margin: 0;
+}
+
+.cityname {
+    font-size: xxx-large;
+    color: #000;
+}
+
+.temperature{
+    font-size: xx-large;
+}
+
+.desc{
+    font-size: x-large;
+}
+
+.datetime{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+
+
+.details{
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.line{
+    margin: 15px;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+.pot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px 25px;
+}
+
+.nextdaystitle{
+    font-size: x-large;
+    padding: 15px 20px;
+}
+
+.daytemp{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: center;
+    gap: 0.8rem;
+    font-size: xx-larger;
+}
+.daytemperature{
+    font-size:small;
+}
+.daytemp img{
+    width: 35px;
+    height: 35px;
+}
+.daydetails{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nextdays{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.rightbox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+}
+.rb{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.topmost{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.para{
+    width: 20%;
+    height: 85%;
+    background-color:rgba(255,255,255,0.6);
+    backdrop-filter: blur(15px);
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    border-radius: 15px;
+}
+
+.para img{
+    width: 65px;
+    height: 65px;
+}
+.underpara{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.paraname{
+    font-weight: 900;
+    font-size: larger;
+}
+.paravalue{
+    font-size: large;
+}
+
+.m1{
+    width: 45%;
+    height: 100%;
+    background-color:rgba(255,255,255,0.6);
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1rem;
+}
+.ml{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    padding: 6px 15px;
+    gap: 0;
+}
+
+.ml h6{
+    margin: 0;
+    font-size:x-large;
+}
+.mr{
+    width: 45%;
+    height: 100%;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: space-around;
+    width: 100%;
+}
+.middle img{
+    width: 85px;
+    height: 85px;
+}
+
+.aqidetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aqidata{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aqidata h6{
+    font-size: larger;
+    
+}
+.mr{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 5px;
+}
+.timming_title{
+    font-size: xx-large;
+    font-weight: 900;
+    padding: 15px;
+
+}
+
+.timming_details{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sun_logo img{
+    width: 75%;
+    height: 75%;
+}
+
+.timming_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    width: 22%;
+    height: 100%;
+}
+
+.info_title{
+    padding-top: 20px;
+    font-size: xx-large;
+}
+
+.info_time,.ap_pm{
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.last{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    justify-content: space-around;
+}
+
+.last_compoends{
+   background-color:rgba(255,255,255,0.6);
+    backdrop-filter: blur(15px);
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    border-radius: 1rem;
+    gap: 10px;
+}
+.today_title h6{
+    padding: 10px 15px;
+    font-size: x-large;
+    font-weight: 900;
+    color: whitesmoke;
+}
+
+.compoend_bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.today_image img{ 
+    width: 50%;
+    height: 55%;
+    margin-left: 25px;
+}
+
+.error_message{
+    width: 40%;
+    height: 35%;
+    background-color: white;
+    position: fixed;
+    top: 20%;
+    right: 30%;
+    border-radius: 1rem;
+    font-size: xxx-large;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 9px 5px 25px rgb(106, 99, 99);
+    display: none;
+}
+
+.error_ok{
+    background-color: red;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 6px;
+}
